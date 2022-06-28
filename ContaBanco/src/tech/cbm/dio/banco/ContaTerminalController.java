@@ -1,5 +1,8 @@
 package tech.cbm.dio.banco;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class ContaTerminalController {
 	private Cliente							cliente;
 	private ContaCorrente					contaCorrente;
@@ -32,7 +35,7 @@ public class ContaTerminalController {
 	}
 
 	public void printMessage() {
-		String message = String.format("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo R$ %.02f já está disponível para saque", 
+		String message = String.format("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo R$ %.02f já está disponível para saque.", 
 			cliente.getNomeCompleto(), contaCorrente.getAgencia(), contaCorrente.getNumeroConta(), contaCorrente.getSaldo());
 
 		System.out.println(message);
