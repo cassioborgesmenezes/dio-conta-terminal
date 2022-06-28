@@ -1,18 +1,14 @@
-## Getting Started
+# Desafio de Projeto DIO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Simulando Uma Conta Bancária Através Do Terminal/Console.
 
-## Folder Structure
+## Descrição
 
-The workspace contains two folders by default, where:
+Projeto Java com simulação de interação com um cliente bancário através do terminal conforme orientações em:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+[Desafio Sintaxe](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Este desafio faz parte do _Bootcamp_ Formação Java Developer Pro.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+As classes principais estão no pacote `tech.cbm.dio.banco` e são utilizadas na classe principal do projeto `ContaTerminal`.  
+Todo o processamento, tanto a coleta de dados do terminal quanto a apresentação da mensagem estão na classe `ContaTerminalController`, chamada pela classe principal.
